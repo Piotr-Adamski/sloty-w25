@@ -19,7 +19,7 @@ if not check_password():
 st.title("Slotoloty")
 
 # 📥 Pobieranie danych z Dropbox
-dropbox_excel_url = "https://www.dropbox.com/scl/fi/8x4ezaeuns70bbz0lmiio/slotyw25.xlsx?rlkey=7so4hw3pxy8hijnoukf1z0rik&st=p1ifjo5u&dl=1"
+dropbox_excel_url = "https://www.dropbox.com/scl/fi/x4dmxmebmin79u0bqkwgy/slotyw25.xlsx?rlkey=f7qs1io48t6ivojautttfhj3j&st=gi5bw83l&dl=1"
 
 try:
     response = requests.get(dropbox_excel_url)
